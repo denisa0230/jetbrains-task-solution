@@ -54,8 +54,7 @@ class Solution {
             }
         }
 
-        // Prepare sorted output
-        // to ensure
+        // Prepare sorted output to ensure deterministic results
         Map<Integer, Set<Integer>> result = new LinkedHashMap<>();
         List<Integer> sortedStationIds = new ArrayList<>(stations.keySet());
         Collections.sort(sortedStationIds);
